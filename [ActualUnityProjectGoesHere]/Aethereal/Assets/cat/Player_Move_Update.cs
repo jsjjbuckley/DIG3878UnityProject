@@ -6,8 +6,8 @@ public class Player_Move_Update : MonoBehaviour {
 
     
     
-    public int playerSpeed = 10;
-    public int playerJumpPower = 1250;
+    public int playerSpeed = 3;
+    public int playerJumpPower = 500;
     private float moveX;
     private float moveY;
 

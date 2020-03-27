@@ -15,7 +15,7 @@ public class Camera_Update: MonoBehaviour
     public float yOffset = 0f;
 
     [Tooltip("This makes smooth camera movement. Higher speeds mean the camera follows the player more closely")]
-    public float speed = 2.0f;
+    public float speed = 5.0f;
 
 
     
