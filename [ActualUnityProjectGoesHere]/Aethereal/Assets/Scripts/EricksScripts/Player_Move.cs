@@ -26,6 +26,7 @@ public class Player_Move : MonoBehaviour {
         }
 
 		//ANIMATIONS
+        /*
         if (moveX != 0) {
             GetComponent<Animator>().SetBool("IsRunning", true);
         } else {
@@ -39,6 +40,7 @@ public class Player_Move : MonoBehaviour {
         {
             GetComponent<Animator>().SetBool("IsJumping", false);
         }
+        */
 
 		//PLAYER DIRECTION
 		if (moveX < 0.0f ) {
