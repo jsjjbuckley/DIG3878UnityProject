@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Level_Change_Air : MonoBehaviour
 {
+    public string sceneToLoad;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,7 +15,7 @@ public class Level_Change_Air : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //The scene number to load (in File->Build Settings)
-            SceneManager.LoadScene("test");
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 }
