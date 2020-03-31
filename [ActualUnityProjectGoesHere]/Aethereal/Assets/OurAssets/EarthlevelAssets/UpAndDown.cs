@@ -8,7 +8,7 @@ public class UpAndDown : MonoBehaviour
     private bool downLimit = true;
     void Update()
     {
-        if (gameObject.transform.position.y <= -0.95)
+        if (gameObject.transform.position.y <= -1.6)
         {
             downLimit = true;
             upLimit = false;
