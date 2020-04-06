@@ -12,14 +12,14 @@ public class Patrol : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        pointAPosition = new Vector3(pointA.position.x, 0, 0);
-        pointBPosition = new Vector3(pointB.position.x, 0, 0);
+        pointAPosition = new Vector3(pointA.position.x, pointA.position.y, pointA.position.z);
+        pointBPosition = new Vector3(pointB.position.x, pointB.position.y, pointB.position.z);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 thisPosition = new Vector3(transform.position.x, 0, 0);
+        Vector3 thisPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         if (isRight)
         {
             transform.position = Vector3.MoveTowards(transform.position, pointB.position, speed);
