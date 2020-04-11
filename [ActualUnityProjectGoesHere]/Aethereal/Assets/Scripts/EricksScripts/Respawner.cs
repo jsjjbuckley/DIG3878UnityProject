@@ -51,7 +51,7 @@ public class Respawner : MonoBehaviour
     {
         //RESETTING PLATFORMS
         Debug.Log("entered");
-        //ResetPlatforms();
+        ResetPlatforms();
         gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         gameObject.transform.position = respawn.transform.position;
         

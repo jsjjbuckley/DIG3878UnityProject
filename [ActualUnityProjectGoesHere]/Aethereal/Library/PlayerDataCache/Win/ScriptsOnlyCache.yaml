@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Camera_Update
     - CheckPoint
+    - EnemyHealth
     - FallingPlatform
     - Level_Change
     - Level_Change_Air
@@ -10,10 +11,13 @@ ScriptsOnlyBuild:
     - MovingGround
     - OnTriggerStay
     - PanelScript
+    - Patrol
     - PatrolNew
     - Patrol_NOFLIP
+    - PlayerShooter
     - Player_Move_Update
     - Player_Move_UpdateWater
+    - Projectile
     - Respawner
     - SceneChange
     - UpAndDown
@@ -25,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -68,13 +73,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10132}
     - Class: 114
+      Script: {instanceID: 10218}
+    - Class: 114
       Script: {instanceID: 10482}
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 10572}
     - Class: 114
-      Script: {instanceID: 23868}
+      Script: {instanceID: 11164}
+    - Class: 114
+      Script: {instanceID: 11538}
+    - Class: 114
+      Script: {instanceID: 11580}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -115,6 +126,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10032}
     - Class: 114
+      Script: {instanceID: 10218}
+    - Class: 114
       Script: {instanceID: 10296}
     - Class: 114
       Script: {instanceID: 10326}
@@ -125,7 +138,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
+      Script: {instanceID: 10572}
+    - Class: 114
+      Script: {instanceID: 11164}
+    - Class: 114
       Script: {instanceID: 11388}
+    - Class: 114
+      Script: {instanceID: 11538}
     - Class: 114
       Script: {instanceID: 11580}
     - Class: 115
@@ -329,11 +348,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9846}
     - Class: 114
+      Script: {instanceID: 10032}
+    - Class: 114
+      Script: {instanceID: 10218}
+    - Class: 114
       Script: {instanceID: 10324}
     - Class: 114
       Script: {instanceID: 10482}
     - Class: 114
+      Script: {instanceID: 10534}
+    - Class: 114
+      Script: {instanceID: 10572}
+    - Class: 114
+      Script: {instanceID: 11164}
+    - Class: 114
       Script: {instanceID: 11252}
+    - Class: 114
+      Script: {instanceID: 11538}
     - Class: 114
       Script: {instanceID: 11580}
     - Class: 114
@@ -355,6 +386,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 253
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -611,7 +644,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 80b230adc343605f6f1fdab8e2d73188
+      Hash: 935f69ad04435caf1245b0948c5d93b6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyHealth
@@ -1115,7 +1148,7 @@ ScriptsOnlyBuild:
     className: TextMeshPro
   - hash:
       serializedVersion: 2
-      Hash: 178709d7fe56179ed9500c4a96e9836a
+      Hash: d7b57ce65ad8b50956ca0c472d58afd3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerShooter
@@ -1243,8 +1276,8 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/TitleScene.unity
   - Assets/Scenes/EarthScene.unity
-  - Assets/Scenes/EndScene.unity
-  - Assets/Scenes/FireScene.unity
-  - Assets/Scenes/WaterScene.unity
   - Assets/Scenes/AirScene.unity
-  playerPath: C:/Users/jorge/OneDrive/Desktop/DIG3878/FinalProjectGameBuild/Aethereal.exe
+  - Assets/Scenes/WaterScene.unity
+  - Assets/Scenes/FireScene.unity
+  - Assets/Scenes/EndScene.unity
+  playerPath: C:/Users/amand/OneDrive/Desktop/DIG3878UnityProject/[ActualUnityProjectGoesHere]/Aethereal/Rodriguez_Samantha_DIG3878_Checkpoint2/Aethereal.exe

@@ -12,15 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/EarthScene.unity
     guid: ffd5809c31d550f4c9c646ae07a0073b
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
-    guid: 1594a7a3ef4c1e84294d6cc2ad088cc7
-  - enabled: 1
-    path: Assets/Scenes/FireScene.unity
-    guid: 1efa6150f78c82a419233bf569b8dee4
+    path: Assets/Scenes/AirScene.unity
+    guid: ff71bda036cbf9a48856759dec90a545
   - enabled: 1
     path: Assets/Scenes/WaterScene.unity
     guid: 91e2f4474d6519843bc2049e2a79c304
   - enabled: 1
-    path: Assets/Scenes/AirScene.unity
-    guid: ff71bda036cbf9a48856759dec90a545
+    path: Assets/Scenes/FireScene.unity
+    guid: 1efa6150f78c82a419233bf569b8dee4
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 1594a7a3ef4c1e84294d6cc2ad088cc7
   m_configObjects: {}
