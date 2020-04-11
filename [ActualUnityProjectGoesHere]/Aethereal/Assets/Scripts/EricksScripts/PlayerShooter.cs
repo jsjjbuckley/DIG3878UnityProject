@@ -9,7 +9,7 @@ public class PlayerShooter : MonoBehaviour {
     private bool facingRight = true;
     [SerializeField] private int MaxActiveShots;
     private Rigidbody2D rbdPlayer;
-    public AudioClip swipe;
+    //public AudioClip swipe;
     
     // Use this for initialization
     void Start()
@@ -38,7 +38,7 @@ public class PlayerShooter : MonoBehaviour {
         {
             if (GameObject.FindGameObjectsWithTag("Projectile").Length < MaxActiveShots)
             {
-                AudioSource.PlayClipAtPoint(swipe, GameObject.FindGameObjectWithTag("Player").transform.position);
+                //AudioSource.PlayClipAtPoint(swipe, GameObject.FindGameObjectWithTag("Player").transform.position);
                 GameObject shot = Instantiate(projectile);
                 shot.transform.position = this.transform.position;
                 shot.SetActive(true);

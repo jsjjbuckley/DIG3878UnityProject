@@ -131,9 +131,9 @@ GameObject:
   - component: {fileID: 41175908}
   - component: {fileID: 41175909}
   - component: {fileID: 41175910}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_3 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,9 +239,9 @@ GameObject:
   - component: {fileID: 58573121}
   - component: {fileID: 58573120}
   - component: {fileID: 58573122}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,9 +346,9 @@ GameObject:
   m_Component:
   - component: {fileID: 70188893}
   - component: {fileID: 70188892}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,9 +427,9 @@ GameObject:
   m_Component:
   - component: {fileID: 178488784}
   - component: {fileID: 178488783}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_5 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -513,7 +513,12 @@ PrefabInstance:
     - target: {fileID: 1684891279325112395, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684891279325112395, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6024570853214807118, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
@@ -603,9 +608,9 @@ GameObject:
   m_Component:
   - component: {fileID: 200148954}
   - component: {fileID: 200148953}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_5 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,7 +758,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &212036153
 BoxCollider2D:
@@ -792,9 +797,9 @@ GameObject:
   - component: {fileID: 221379432}
   - component: {fileID: 221379431}
   - component: {fileID: 221379433}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -900,9 +905,9 @@ GameObject:
   - component: {fileID: 244167490}
   - component: {fileID: 244167489}
   - component: {fileID: 244167491}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1008,9 +1013,9 @@ GameObject:
   - component: {fileID: 326470758}
   - component: {fileID: 326470757}
   - component: {fileID: 326470759}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1115,9 +1120,9 @@ GameObject:
   m_Component:
   - component: {fileID: 353445479}
   - component: {fileID: 353445478}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1197,9 +1202,9 @@ GameObject:
   - component: {fileID: 357144429}
   - component: {fileID: 357144428}
   - component: {fileID: 357144430}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,9 +1310,9 @@ GameObject:
   - component: {fileID: 359007439}
   - component: {fileID: 359007438}
   - component: {fileID: 359007440}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_11
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1445,7 +1450,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &527291347
 BoxCollider2D:
@@ -1484,9 +1489,9 @@ GameObject:
   - component: {fileID: 542986744}
   - component: {fileID: 542986743}
   - component: {fileID: 542986745}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1591,9 +1596,9 @@ GameObject:
   - component: {fileID: 550836514}
   - component: {fileID: 550836513}
   - component: {fileID: 550836515}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_11
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1688,6 +1693,75 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.02, y: 0.14511228}
   m_EdgeRadius: 0
+--- !u!1001 &593346023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246597, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583615189135246619, guid: e0750641abc86b0459e3266e12a86a91,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0750641abc86b0459e3266e12a86a91, type: 3}
 --- !u!1 &667794711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,9 +1773,9 @@ GameObject:
   - component: {fileID: 667794713}
   - component: {fileID: 667794712}
   - component: {fileID: 667794714}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_10
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1807,9 +1881,9 @@ GameObject:
   - component: {fileID: 670677813}
   - component: {fileID: 670677812}
   - component: {fileID: 670677814}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_9
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1915,9 +1989,9 @@ GameObject:
   - component: {fileID: 681069824}
   - component: {fileID: 681069823}
   - component: {fileID: 681069825}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2023,9 +2097,9 @@ GameObject:
   - component: {fileID: 688214722}
   - component: {fileID: 688214721}
   - component: {fileID: 688214723}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_10 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2130,9 +2204,9 @@ GameObject:
   m_Component:
   - component: {fileID: 700221677}
   - component: {fileID: 700221676}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_4 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2212,9 +2286,9 @@ GameObject:
   - component: {fileID: 702360644}
   - component: {fileID: 702360643}
   - component: {fileID: 702360645}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_11
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2319,9 +2393,9 @@ GameObject:
   m_Component:
   - component: {fileID: 704220180}
   - component: {fileID: 704220179}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2400,9 +2474,9 @@ GameObject:
   - component: {fileID: 767895136}
   - component: {fileID: 767895135}
   - component: {fileID: 767895137}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2506,9 +2580,9 @@ GameObject:
   m_Component:
   - component: {fileID: 778608220}
   - component: {fileID: 778608219}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2587,9 +2661,9 @@ GameObject:
   - component: {fileID: 833956737}
   - component: {fileID: 833956739}
   - component: {fileID: 833956738}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2694,9 +2768,9 @@ GameObject:
   m_Component:
   - component: {fileID: 862162606}
   - component: {fileID: 862162605}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2776,9 +2850,9 @@ GameObject:
   - component: {fileID: 913146338}
   - component: {fileID: 913146337}
   - component: {fileID: 913146339}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_9
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2884,9 +2958,9 @@ GameObject:
   - component: {fileID: 1035143963}
   - component: {fileID: 1035143962}
   - component: {fileID: 1035143964}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_10
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2992,9 +3066,9 @@ GameObject:
   - component: {fileID: 1082823430}
   - component: {fileID: 1082823429}
   - component: {fileID: 1082823431}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3099,9 +3173,9 @@ GameObject:
   - component: {fileID: 1088622357}
   - component: {fileID: 1088622356}
   - component: {fileID: 1088622358}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,7 +3350,7 @@ Transform:
   - {fileID: 1402206071}
   - {fileID: 1128587528}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126990796
 GameObject:
@@ -3289,9 +3363,9 @@ GameObject:
   - component: {fileID: 1126990798}
   - component: {fileID: 1126990797}
   - component: {fileID: 1126990799}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3397,9 +3471,9 @@ GameObject:
   - component: {fileID: 1128587528}
   - component: {fileID: 1128587530}
   - component: {fileID: 1128587529}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_7 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3505,9 +3579,9 @@ GameObject:
   - component: {fileID: 1174184101}
   - component: {fileID: 1174184100}
   - component: {fileID: 1174184102}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_9
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3627,7 +3701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192587503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.88, y: -1.7, z: 1.8}
+  m_LocalPosition: {x: -21.65, y: -1.7, z: 1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3693,9 +3767,9 @@ GameObject:
   - component: {fileID: 1194017751}
   - component: {fileID: 1194017750}
   - component: {fileID: 1194017752}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_10
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3800,9 +3874,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1217413649}
   - component: {fileID: 1217413648}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3926,7 +4000,7 @@ PrefabInstance:
     - target: {fileID: 6024570853214807118, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6024570853214807118, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
@@ -3956,9 +4030,9 @@ GameObject:
   - component: {fileID: 1326606688}
   - component: {fileID: 1326606687}
   - component: {fileID: 1326606689}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4053,6 +4127,120 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.85, y: 0.21616718}
   m_EdgeRadius: 0
+--- !u!1001 &1363768928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 560968275291428886, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275291428886, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275291428886, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184018, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_Name
+      value: TheEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.289
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275667184019, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275996361362, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275996361362, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968275996361362, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968276064573482, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968276064573482, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 560968276064573482, guid: ee01c96b833fdcc4f96accfe36343bc4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee01c96b833fdcc4f96accfe36343bc4, type: 3}
 --- !u!1 &1402206070
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,9 +4252,9 @@ GameObject:
   - component: {fileID: 1402206071}
   - component: {fileID: 1402206073}
   - component: {fileID: 1402206072}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_3 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4171,9 +4359,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1464222320}
   - component: {fileID: 1464222319}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4252,9 +4440,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1539592506}
   - component: {fileID: 1539592505}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4334,9 +4522,9 @@ GameObject:
   - component: {fileID: 1570075512}
   - component: {fileID: 1570075511}
   - component: {fileID: 1570075513}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4442,9 +4630,9 @@ GameObject:
   - component: {fileID: 1593842912}
   - component: {fileID: 1593842911}
   - component: {fileID: 1593842913}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4607,7 +4795,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628274139
 GameObject:
@@ -4620,9 +4808,9 @@ GameObject:
   - component: {fileID: 1628274141}
   - component: {fileID: 1628274140}
   - component: {fileID: 1628274142}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4728,9 +4916,9 @@ GameObject:
   - component: {fileID: 1665471752}
   - component: {fileID: 1665471751}
   - component: {fileID: 1665471753}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4835,9 +5023,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1700006981}
   - component: {fileID: 1700006980}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4917,9 +5105,9 @@ GameObject:
   - component: {fileID: 1717037550}
   - component: {fileID: 1717037551}
   - component: {fileID: 1717037552}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5038,11 +5226,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774868222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.177145, y: -4.69, z: -28.960938}
+  m_LocalPosition: {x: -4.177145, y: -4.77, z: -28.960938}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1774868224
 BoxCollider2D:
@@ -5081,9 +5269,9 @@ GameObject:
   - component: {fileID: 1785089722}
   - component: {fileID: 1785089721}
   - component: {fileID: 1785089723}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_8 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5297,7 +5485,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1794866402
 PrefabInstance:
@@ -5314,7 +5502,12 @@ PrefabInstance:
     - target: {fileID: 1684891279325112395, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684891279325112395, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6024570853214807118, guid: a60bf96c4663bc94e9f9c2a913bdf6f7,
         type: 3}
@@ -5394,24 +5587,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1794866402}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1809064228 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8824412323097161822, guid: cf28e94e2bd8e224eb98cc0af7a33d5e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1925716903}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1809064229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809064228}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb5297b0b7a2cc48a4e4cc18885d5a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1816233293
 GameObject:
   m_ObjectHideFlags: 0
@@ -5423,9 +5598,9 @@ GameObject:
   - component: {fileID: 1816233294}
   - component: {fileID: 1816233295}
   - component: {fileID: 1816233296}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5531,9 +5706,9 @@ GameObject:
   - component: {fileID: 1877560047}
   - component: {fileID: 1877560046}
   - component: {fileID: 1877560048}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_9 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5712,90 +5887,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf28e94e2bd8e224eb98cc0af7a33d5e, type: 3}
---- !u!1001 &1951796988
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 885358886130498097, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498106, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_Name
-      value: player
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498110, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: distToGround
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498110, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: GroundLayer.m_Bits
-      value: 768
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 885358886130498111, guid: 815b1ca6a59486546a2bce12b149c040,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 815b1ca6a59486546a2bce12b149c040, type: 3}
 --- !u!1 &1982996579
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,9 +5898,9 @@ GameObject:
   - component: {fileID: 1982996581}
   - component: {fileID: 1982996580}
   - component: {fileID: 1982996582}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5915,9 +6006,9 @@ GameObject:
   - component: {fileID: 2000168722}
   - component: {fileID: 2000168724}
   - component: {fileID: 2000168723}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6011,27 +6102,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2033096119 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 885358886130498106, guid: 815b1ca6a59486546a2bce12b149c040,
-    type: 3}
-  m_PrefabInstance: {fileID: 1951796988}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2033096120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033096119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9723fd23113aa049b439d273eec64ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerScore: 0
-  coinValue: 10
-  scoreText: {fileID: 0}
 --- !u!1 &2038851628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6043,9 +6113,9 @@ GameObject:
   - component: {fileID: 2038851629}
   - component: {fileID: 2038851630}
   - component: {fileID: 2038851631}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_11 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6151,9 +6221,9 @@ GameObject:
   - component: {fileID: 2076583809}
   - component: {fileID: 2076583808}
   - component: {fileID: 2076583810}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6259,9 +6329,9 @@ GameObject:
   - component: {fileID: 2123561611}
   - component: {fileID: 2123561610}
   - component: {fileID: 2123561612}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: cloud platforms_11 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -4,24 +4,24 @@ using System.Collections;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int startingHealth = 100;
-    public int currentHealth;
+    public int startingHealth = 30;
+    private int currentHealth;
 
     //newBlinking
-    private Material matWhite;
+    public Material matWhite;
     private Material matDefault;
     private Transform parentTrans;
     SpriteRenderer sr;
 
     //newLootDrop
-    public GameObject itemToDrop;
-    public GameObject deadSprite;
+    //public GameObject itemToDrop;
+    //public GameObject deadSprite;
 
     void Awake()
     {
         currentHealth = startingHealth;
         sr = GetComponent<SpriteRenderer>();
-        matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+        //matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
         matDefault = sr.material;
     }
 
@@ -38,14 +38,14 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             //instantiate dead alien sprite
-            GameObject tempItemSpawn2 = Instantiate(deadSprite, new Vector3(transform.position.x, transform.position.y-0.71f, transform.position.z), Quaternion.identity) as GameObject;
-            tempItemSpawn2.transform.Rotate(0f, 0f, 90f);
-            tempItemSpawn2.GetComponent<SpriteRenderer>().flipY = true;
-            tempItemSpawn2.SetActive(true);
+            //GameObject tempItemSpawn2 = Instantiate(deadSprite, new Vector3(transform.position.x, transform.position.y-0.71f, transform.position.z), Quaternion.identity) as GameObject;
+            //tempItemSpawn2.transform.Rotate(0f, 0f, 90f);
+            //tempItemSpawn2.GetComponent<SpriteRenderer>().flipY = true;
+            //tempItemSpawn2.SetActive(true);
             //newLootDrop
-            GameObject tempItemSpawn = Instantiate(itemToDrop, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity) as GameObject;
+            //GameObject tempItemSpawn = Instantiate(itemToDrop, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity) as GameObject;
  
-            tempItemSpawn.SetActive(true);
+            //tempItemSpawn.SetActive(true);
             Destroy(gameObject);
             //gameObject.SetActive(false);
         }
