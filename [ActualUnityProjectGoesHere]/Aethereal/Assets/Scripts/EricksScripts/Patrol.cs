@@ -9,6 +9,8 @@ public class Patrol : MonoBehaviour {
     public float speed = 0.3f;
     private Vector3 pointAPosition;
     private Vector3 pointBPosition;
+
+
     // Use this for initialization
     void Start()
     {
@@ -22,6 +24,7 @@ public class Patrol : MonoBehaviour {
         Vector3 thisPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         if (isRight)
         {
+            GetComponent<SpriteRenderer>().flipX = false;
             transform.position = Vector3.MoveTowards(transform.position, pointB.position, speed);
             if (thisPosition.Equals(pointBPosition))
             {
@@ -32,6 +35,7 @@ public class Patrol : MonoBehaviour {
         }
         else
         {
+            GetComponent<SpriteRenderer>().flipX = true;
             transform.position = Vector3.MoveTowards(transform.position, pointA.position, speed);
             if (thisPosition.Equals(pointAPosition))
             {
@@ -40,5 +44,6 @@ public class Patrol : MonoBehaviour {
                 GetComponent<SpriteRenderer>().flipX = false;
             }
         }
+
     }
 }
