@@ -29,7 +29,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1284,4 +1283,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/WaterScene.unity
   - Assets/Scenes/FireScene.unity
   - Assets/Scenes/EndScene.unity
-  playerPath: C:/Users/jorge/OneDrive/Desktop/Aethereal.exe
+  playerPath: C:/Users/jorge/OneDrive/Desktop/DIG3878/WorkingAetherealGame/Aethereal.exe
