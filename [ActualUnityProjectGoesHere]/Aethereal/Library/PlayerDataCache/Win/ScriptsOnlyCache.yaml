@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - Level_Change
     - Level_Change_Air
     - LoadSceneOnClick
+    - MovingGround
     - OnTriggerStay
     - PanelScript
     - Patrol
@@ -19,21 +20,15 @@ ScriptsOnlyBuild:
     - Projectile
     - Respawner
     - SceneChange
+    - UpAndDown
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -66,10 +61,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -87,13 +78,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10572}
-    - Class: 114
       Script: {instanceID: 10784}
     - Class: 114
       Script: {instanceID: 11164}
-    - Class: 114
-      Script: {instanceID: 11538}
     - Class: 114
       Script: {instanceID: 11580}
     - Class: 114
@@ -129,10 +116,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -142,11 +125,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10032}
     - Class: 114
-      Script: {instanceID: 10132}
-    - Class: 114
       Script: {instanceID: 10218}
     - Class: 114
       Script: {instanceID: 10296}
+    - Class: 114
+      Script: {instanceID: 10326}
     - Class: 114
       Script: {instanceID: 10482}
     - Class: 114
@@ -156,9 +139,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10572}
     - Class: 114
-      Script: {instanceID: 10784}
-    - Class: 114
       Script: {instanceID: 11164}
+    - Class: 114
+      Script: {instanceID: 11388}
     - Class: 114
       Script: {instanceID: 11538}
     - Class: 114
@@ -245,10 +228,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -268,11 +247,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10572}
-    - Class: 114
       Script: {instanceID: 10784}
-    - Class: 114
-      Script: {instanceID: 11538}
     - Class: 114
       Script: {instanceID: 11580}
     - Class: 114
@@ -363,10 +338,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -389,8 +360,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10554}
     - Class: 114
       Script: {instanceID: 10572}
-    - Class: 114
-      Script: {instanceID: 10784}
     - Class: 114
       Script: {instanceID: 11164}
     - Class: 114
@@ -420,6 +389,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 253
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -598,7 +569,7 @@ ScriptsOnlyBuild:
     className: Parallax
   - hash:
       serializedVersion: 2
-      Hash: 262723adb9978de0594a30c44d911976
+      Hash: 7dcec685d86c337be1791926d10de9c0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Respawner
@@ -1312,4 +1283,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/WaterScene.unity
   - Assets/Scenes/FireScene.unity
   - Assets/Scenes/EndScene.unity
-  playerPath: C:/Users/amand/OneDrive/Desktop/testing build aethereal/Aethereal.exe
+  playerPath: C:/Users/jorge/OneDrive/Desktop/DIG3878/WorkingAetherealGame/Aethereal.exe

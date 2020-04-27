@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":18.860607147216798,"y":-0.7431772947311401,"z":-9.409222602844239},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.322367191314697,"orthographic":true}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":6.097970962524414,"y":1.295672059059143,"z":-3.8545453548431398},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.541866302490236,"orthographic":true}
-=======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":7.243892192840576,"y":-51.625526428222659,"z":-10.051206588745118},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":16.772977828979493,"orthographic":true}
->>>>>>> added enemies to waterscene dos
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":7.243892192840576,"y":-51.625526428222659,"z":-10.051206588745118},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":16.772977828979493,"orthographic":true}
->>>>>>> 6f0c01efcc052a0e74273b18d017a58dd0c7f79f
->>>>>>> 6903405d1798bdf813c00693f400ef15631b622c
