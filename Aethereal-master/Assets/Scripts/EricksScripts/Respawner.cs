@@ -13,7 +13,7 @@ public class Respawner : MonoBehaviour
 
 
     [Tooltip("The score value of a coin or pickup.")]
-    //public int coinValue = 10;
+    public int coinValue = 10;
 
     public Text scoreText;
 
@@ -34,6 +34,11 @@ public class Respawner : MonoBehaviour
         if (collision.CompareTag("Death"))
         {
             Respawn();
+        }
+        else if (collision.CompareTag("Coin"))
+        {
+            AddPoints(10);
+            Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("Finish"))
         {

@@ -62,6 +62,7 @@
      <Compile Include="Assets\OurAssets\EarthlevelAssets\MovingGround.cs" />
      <Compile Include="Assets\OurAssets\EarthlevelAssets\ShakingObject.cs" />
      <Compile Include="Assets\OurAssets\EarthlevelAssets\UpAndDown.cs" />
+     <Compile Include="Assets\OurAssets\StartEndAssets\Scripts\CutSceneScript.cs" />
      <Compile Include="Assets\OurAssets\StartEndAssets\Scripts\PanelScript.cs" />
      <Compile Include="Assets\OurAssets\StartEndAssets\Scripts\SceneChange.cs" />
      <Compile Include="Assets\Scripts\EricksScripts\ActivationTrigger.cs" />
